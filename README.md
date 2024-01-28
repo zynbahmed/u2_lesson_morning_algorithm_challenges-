@@ -3,9 +3,9 @@
 1. **Sum Squares:**
    - **Prompt:** Design a function that takes a positive integer as input and calculates the sum of the squares of all positive integers up to and including the given input.
 
-2. **Invert Values without Negation Operator:**
-   - **Prompt:** Implement a function that takes an array of numbers and returns a new array with the sign of each element inverted without using the negation operator (`-`). Consider alternative approaches to achieve the same result in JavaScript.
-
+2. **Invert Values:**
+   - **Prompt:** Implement a function that takes an array of numbers and returns a new array with the sign of each element inverted.
+     
 3. **Reversed Strings without Inbuilt Methods:**
    - **Prompt:** Write a function that takes a string as input and returns the reverse of the string without using inbuilt methods like `split`, `reverse`, and `join`.
 
