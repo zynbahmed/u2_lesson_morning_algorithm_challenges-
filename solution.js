@@ -61,6 +61,19 @@ console.log("Result 3:", reverseString(stringToReverse));   // Expected output i
 
 const findSmallestInt = (numArr) => {
     // Your solution here 
+    const positiveIntegers = numArr.filter(num => num > 0);
+
+    positiveIntegers.sort((a, b) => a - b)
+    let smallestMissingInt = 1
+    for (const num of positiveIntegers) {
+        if (num === smallestMissingInt) {
+            smallestMissingInt++
+        } else {
+            break
+        }
+    }
+
+  return smallestMissingInt
 }
 
 // Test
