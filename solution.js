@@ -13,7 +13,7 @@ console.log("Result 1:", sumSquares(startNum)); // Expected output is 14
 
 
 
-// 2. Invert Values Without Negation Operator
+// 2. Invert Values 
 
 const invertValues = (numArr) => {
      // Your solution here 
