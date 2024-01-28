@@ -1,7 +1,14 @@
 // 1. Sum Squares
 
 const sumSquares = (num) => {
-     //Ask Salman for the answer
+    if (Number.isInteger(num) && num > 0) {
+        let sum = 0
+    
+        for (let i = 1; i <= num; i++) {
+          sum += i * i
+        }
+        return sum
+    }
 }
 
 // Test
@@ -17,6 +24,8 @@ console.log("Result 1:", sumSquares(startNum)); // Expected output is 14
 
 const invertValues = (numArr) => {
      // Your solution here 
+    const invertedArray = numArr.map((num) => -num)
+    return invertedArray
 }
 
 // Test
@@ -31,6 +40,13 @@ console.log("Result 2:", invertValues(numArr2));  // Expected output is [-1, -3,
 
 const reverseString = (str) => {
    // Your solution here 
+   let reversed = ''
+
+   for (let i = str.length - 1; i >= 0; i--) {
+     reversed += str[i]
+   }
+ 
+   return reversed
 }
 
 // Test
