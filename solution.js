@@ -1,14 +1,12 @@
 // 1. Sum Squares
 
 const sumSquares = (num) => {
-    if (Number.isInteger(num) && num > 0) {
-        let sum = 0
+    let sum = 0
     
-        for (let i = 1; i <= num; i++) {
-          sum += i * i
-        }
-        return sum
+    for (let i = 1; i <= num; i++) {
+        sum += i * i
     }
+    return sum
 }
 
 // Test
