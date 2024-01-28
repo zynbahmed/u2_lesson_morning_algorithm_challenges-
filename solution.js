@@ -22,7 +22,7 @@ const invertValues = (numArr) => {
 // Test
 
 const numArr2 = [1, 3, 4, 5];
-console.log("Result 2:", invertValues(numArr2));  // Expected output is [-1, -2, -4, -5]
+console.log("Result 2:", invertValues(numArr2));  // Expected output is [-1, -3, -4, -5]
 
 
 
