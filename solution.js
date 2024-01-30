@@ -86,8 +86,15 @@ console.log("Result 4:", findSmallestInt(numArr3));  // Expected output is 2
 
 const countingSheep = (boolArr) => {
     // Your solution here 
-    const sheepCount = boolArr.filter(value => value === true).length
-    return sheepCount
+    const count = boolArr.filter(value => value === true).length
+    return count
+    //let count = 0
+    //boolArr.forEach(sheep => {
+        //if (sheep === true){
+            //count++
+        //}
+    //})
+    //return count
 }
 
 // Test
