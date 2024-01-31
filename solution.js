@@ -129,16 +129,13 @@ console.log("Result 6:", calculateAverage(numArr4))  // Expected output is 30
 // 7. isPalindrome
 
 const isPalindrome = (str) => {
-    // Your solution here 
-    const cleanStr = str.replace(/[^a-z]/g, '').toLowerCase()
+    const cleanStr = str.replace(/[^a-z]/g, '')
 
-  // Compare characters from start and end
-  for (let i = 0; i < Math.floor(cleanStr.length / 2); i++) {
-    if (cleanStr[i] !== cleanStr[cleanStr.length - 1 - i]) {
-      return false
+    for (let i = 0; i < Math.floor(cleanStr.length / 2); i++) {
+        if (cleanStr[i] !== cleanStr[cleanStr.length - 1 - i]) {
+            return false
+        }
     }
-  }
-
   return true
 }
 
