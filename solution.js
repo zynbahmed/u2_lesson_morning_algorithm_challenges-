@@ -172,11 +172,11 @@ console.log("Result 8:", findMiddleElement(arrayForMiddle));  // Expected output
 // 9. Training on vowel count
 
 const countVowels = (str) => {
-    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'])
+    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
     let vowelCount = 0
 
     str.split('').forEach(char => {
-        if (vowels.has(char)) {
+        if (vowels.includes(char)) {
           vowelCount++
         }
     })
